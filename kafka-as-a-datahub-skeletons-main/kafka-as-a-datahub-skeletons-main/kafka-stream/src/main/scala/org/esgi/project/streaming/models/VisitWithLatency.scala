@@ -13,5 +13,5 @@ case class VisitWithLatency(
 
 
 object VisitWithLatency {
-  implicit val format: OFormat[VisitWithLatency] = Json.format[VisitWithLatency]
+  implicit val visitWithLatencyFormat: OFormat[VisitWithLatency] = Json.format[VisitWithLatency]
 }
